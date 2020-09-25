@@ -324,7 +324,7 @@ section {
   .box{
     width:  200%;
     height: 160px;
-    background-color: #C9DBD9;
+    background-image: linear-gradient(to bottom right, #C9DBD9, #B5F1CD);
     position: absolute;
     right: 0;
     z-index: 1;
@@ -341,7 +341,7 @@ section {
   }
 
   .a02 .box {
-    background-color: #D2BCE8;
+    background-image: linear-gradient(to bottom left, #D2BCE8, #979BEF);
     left: 0;
   }
 
@@ -368,7 +368,9 @@ section {
     opacity: 20%;
   }
 
-  .a03 .box {background-color: #FBD7A1;}
+  .a03 .box {
+    background-image: linear-gradient(to bottom right, #FBD7A1, #FFAA86);
+  }
 /* End of article 03 */
 
 /* Footer */
