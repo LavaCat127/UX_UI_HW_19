@@ -48,7 +48,7 @@ body{
 }
 
 section {
-  padding: 0 40px;
+  padding: 80px 40px 40px;
   overflow: hidden;
 }
 
@@ -245,8 +245,6 @@ section {
     z-index: 3000;
   }
 
-
-
 /* End of hero section */
 
 /* article 01 */
@@ -255,8 +253,6 @@ section {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 160px;
-    /* padding: 100px 0 ; */
   }
 
   .description{
@@ -336,6 +332,10 @@ section {
 /* End of article 01 */
 
 /* article 02 */
+  .a02 {
+    margin: 20px 0;
+  }
+
   .a02 li{
     background: #D2BCE8;
   }
