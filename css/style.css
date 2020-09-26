@@ -64,6 +64,8 @@ section {
     background: white;
     background-image: linear-gradient(to bottom right, #40AFFE, #AE91CB);
     z-index: 200;
+    opacity: 0%;
+    display: none;
   }
 
   .mmcontainer{
@@ -76,6 +78,7 @@ section {
     background: white;
     display: flex;
     flex-direction: column;
+    transform: translateX(100%);
   }
 
   .mobileMenu a{
@@ -94,7 +97,18 @@ section {
     color: #40AFFE;
   }
 
-  .mobileMenu { display: none; }
+/*  active mobileMenu */
+.mobileMenu.active {
+  opacity: 100%;
+  display: block;
+}
+
+.mobileMenu.active .mmcontainer {
+  transform: translateX(0);
+}
+
+
+/*  active mobileMenu */
 
   .webMenu { display: none; }
   /* End of mobileMenu */

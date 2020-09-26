@@ -1,4 +1,8 @@
 
 $(".openmenu").click(function(){
-  $(".mobileMenu").fadeIn();
+  $( ".mobileMenu" ).addClass( "active" );
+});
+
+$(".closemenu").click(function(){
+  $( ".mobileMenu" ).removeClass( "active" );
 });
